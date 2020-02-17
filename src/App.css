@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Orbitron&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-image: url(gambar-depan.jpg);
+  background-size: 100% 100%;
+  height: 610px;
+}
+.TopPage {
+  display: inline block;
+}
+.header {
+  font-family: "Orbitron", sans-serif;
+  padding-top: 15px;
+  margin-left: 15px;
+  color: white;
+}
+
+.btn-toolbar {
+  height: 420px;
+}
+.content {
+  margin-left: 700px;
+  margin-top: 50px;
+}
+.btn-login {
+  margin-left: 870px;
+  margin-bottom: 230px;
+}
+
+.btn-register {
+  margin-left: 10px;
+  margin-bottom: 230px;
+}
+.footer {
+  height: 53px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 0;
+  margin-top: 83px;
+  background-color: rgb(248, 178, 49);
+}
+input.form-control {
+  background-color: #f2f2f2;
+}
