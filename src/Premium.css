@@ -1,0 +1,65 @@
+.modal-body-premium {
+  background: linear-gradient(145deg, #cee026, #f8b231);
+  height: 500px;
+}
+.img-close-premium {
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+.modal-header {
+  background: none;
+  border: none;
+}
+.title-premium {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 160px;
+  font-weight: bold;
+}
+
+.premium-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.premium-content-1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.premium-content-2 {
+  text-align: center;
+  margin-top: 15px;
+}
+.form-premium {
+  position: absolute;
+  top: 255px;
+  left: 0px;
+}
+
+.form-image-premium {
+  height: 120px;
+  width: 120px;
+  background-color: lavender;
+  position: absolute;
+  top: 305px;
+  left: 190px;
+  border-radius: 3px;
+}
+.image {
+  height: 40px;
+  width: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.form-button-premium {
+  position: absolute;
+  top: 440px;
+  left: 220px;
+  background-color: white;
+  color: #495057;
+}
+.form-button-premium:hover {
+  color: #495057;
+}

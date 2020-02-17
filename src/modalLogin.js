@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import "./modalLogin.css";
+import "./App.css";
+import { Link } from "react-router-dom";
 
 class ModalLogin extends Component {
   constructor(props) {
@@ -48,9 +50,11 @@ class ModalLogin extends Component {
             <Form.Control type="password" placeholder="Password"></Form.Control>
           </Form.Group>
           <div className="div-submit">
-            <button type="submit" className="submit">
-              Submit
-            </button>
+            <Link to="/dashboard">
+              <button type="submit" className="submit">
+                Submit
+              </button>
+            </Link>
           </div>
         </Modal>
       </>

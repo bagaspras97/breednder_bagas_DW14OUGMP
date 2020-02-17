@@ -1,0 +1,274 @@
+.div-left-edit {
+  width: 35%;
+  height: 100vh;
+  float: left;
+  background-color: beige;
+}
+
+.edit-profile {
+  color: white;
+  margin-top: 20px;
+  margin-right: 120px;
+  float: right;
+}
+.div-right-edit {
+  width: 65%;
+  height: 100vh;
+  background: url(./img/background.jpg);
+  float: right;
+}
+
+.card-edit {
+  margin: 40px 260px auto;
+  height: 550px;
+  width: 310px;
+  background-color: #f2f2f2;
+}
+
+.row-edit-right {
+  height: 365px;
+  width: 100%;
+
+  margin-left: 0px;
+}
+.edit-photo-1 {
+  height: 110px;
+  width: 80px;
+  margin: 2px 7px auto;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.edit-photo-1 .img1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+.edit-photo-1 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 138px;
+  left: 780px;
+  transform: rotate(47deg);
+}
+.edit-photo-2 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 2px 7px auto;
+  margin-top: 6px;
+  border-radius: 3px;
+}
+.edit-photo-2 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 138px;
+  left: 873px;
+}
+.edit-photo-3 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 2px 7px auto;
+  margin-right: 2px;
+  margin-top: 6px;
+  border-radius: 3px;
+}
+.edit-photo-3 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 138px;
+  left: 970px;
+}
+.edit-photo-4 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+
+  margin: 7px 7px auto;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.edit-photo-4 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 255px;
+  left: 780px;
+}
+.edit-photo-5 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 7px 7px auto;
+  border-radius: 3px;
+}
+.edit-photo-5 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 255px;
+  left: 873px;
+}
+.edit-photo-6 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+
+  margin: 7px 7px auto;
+  border-radius: 3px;
+}
+.edit-photo-6 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 255px;
+  left: 970px;
+}
+.edit-photo-7 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 7px 7px auto;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.edit-photo-7 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 373px;
+  left: 780px;
+}
+.edit-photo-8 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 7px 7px auto;
+  border-radius: 3px;
+}
+.edit-photo-8 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 373px;
+  left: 873px;
+}
+.edit-photo-9 {
+  height: 110px;
+  width: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  margin: 7px 7px auto;
+  border-radius: 3px;
+}
+.edit-photo-9 .img2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 373px;
+  left: 970px;
+}
+
+.div-bawah {
+  overflow: auto;
+  height: 160px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nama-edit {
+  font-weight: bold;
+  padding-left: 7px;
+}
+
+.input-form-edit1 {
+  width: 289px;
+  height: 30px;
+  padding-left: 6px;
+  padding-top: 2px;
+  color: grey;
+
+  font-size: 14px;
+}
+
+.input-form-edit2 {
+  height: 30px;
+  width: 289px;
+  background-color: white;
+  padding-left: 6px;
+  padding-top: 2px;
+  font-size: 14px;
+}
+
+.input-form-edit3 {
+  height: 30px;
+  width: 289px;
+  background-color: white;
+  padding-left: 6px;
+  padding-top: 2px;
+  font-size: 14px;
+}
+.input-form-edit4 {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  padding-left: 6px;
+  padding-top: 2px;
+  font-size: 14px;
+}
+.btn-save {
+  position: absolute;
+  top: 530px;
+  left: 820px;
+}

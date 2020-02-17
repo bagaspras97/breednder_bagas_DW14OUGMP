@@ -1,0 +1,160 @@
+.nav-left-profile {
+  height: 70px;
+  background: linear-gradient(145deg, #cee026, #f8b231);
+}
+.nav-left-profile .img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 23px;
+  left: 10px;
+  transform: rotate(90deg);
+}
+.nav-left-profile .img1 {
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+  border: 3px solid white;
+  margin: 5px 5px auto;
+  margin-left: 70px;
+}
+h3.profile {
+  color: white;
+  float: right;
+  margin-top: 20px;
+  margin-right: 175px;
+}
+.h4-account {
+  padding-top: 20px;
+}
+.account-setting {
+  color: #f8b231;
+  height: 70px;
+}
+
+.div-account-setting {
+  background-color: lightgrey;
+}
+.div-account-setting p {
+  padding-left: 10px;
+}
+.h4-discovery {
+  padding-top: 5px;
+}
+.span-email {
+  float: right;
+  padding-right: 10px;
+}
+.span-phone {
+  float: right;
+  padding-right: 10px;
+}
+.span-ds {
+  float: right;
+  padding-right: 10px;
+}
+
+div.discovery-setting {
+  color: #f8b231;
+  height: 55px;
+}
+.div-discovery-setting input {
+  width: 425px;
+}
+.div-discovery-setting {
+  background-color: lightgrey;
+  padding-left: 10px;
+  height: 318px;
+}
+.select-profile {
+  margin-right: 10px;
+  width: 427px;
+}
+
+.button-profile {
+  margin-left: 180px;
+  margin-top: 16px;
+  border-radius: 10px;
+  padding: 7px 15px;
+}
+.button-add-pet {
+  float: right;
+  margin: 5px 5px auto;
+}
+.card {
+  height: 360px;
+  width: 280px;
+  background-color: cadetblue;
+}
+.card-information {
+  margin: 0px 260px auto;
+  height: 200px;
+  width: 280px;
+  background-color: #f2f2f2;
+}
+.card-information div {
+  font-size: 30px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+.card-information div span {
+  margin-left: 130px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card-information-profil img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 443px;
+}
+.card-information .card-information-profil span {
+  position: absolute;
+  top: 440px;
+  left: 610px;
+  font-size: 15px;
+}
+.card-information-distance img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 468px;
+}
+.card-information .card-information-distance span {
+  position: absolute;
+  top: 463px;
+  left: 610px;
+  font-size: 15px;
+}
+.card-information-gender img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 491px;
+}
+.card-information .card-information-gender span {
+  position: absolute;
+  top: 486px;
+  left: 610px;
+  font-size: 15px;
+}
+
+.card-information-phone img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 515px;
+}
+.card-information .card-information-phone span {
+  position: absolute;
+  top: 511px;
+  left: 610px;
+  font-size: 15px;
+}
+.card-button {
+  position: absolute;
+  top: 549px;
+  left: 820px;
+  padding: 5px 20px;
+}

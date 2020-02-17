@@ -1,0 +1,133 @@
+.div-left {
+  width: 35%;
+  height: 100vh;
+  float: left;
+  background-color: #f2f2f2;
+}
+.nav-left-1 {
+  height: 70px;
+  background: linear-gradient(145deg, #cee026, #f8b231);
+}
+.nav-left-1 img {
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+  border: 3px solid white;
+  margin: 5px 5px auto;
+}
+.pet-name-1 {
+  margin-top: 18px;
+  margin-right: 280px;
+  color: white;
+}
+h2 {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.hr-div-left {
+  border: 2px solid #cee026;
+  width: 88px;
+  margin-left: 5px;
+  position: absolute;
+  top: 90px;
+}
+.row-dashboard {
+  margin: 0px 0px auto;
+  padding-top: 0;
+}
+
+.galeri-dalem {
+  height: 145px;
+  width: 120px;
+  border-radius: 3px;
+  margin: 10px 0 10px 20px;
+}
+.galeri-dalem:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div-right {
+  width: 65%;
+  height: 100vh;
+  background-image: url(img/background.jpg);
+  float: right;
+}
+.card {
+  margin: 40px 260px auto;
+  height: 350px;
+  width: 270px;
+  background-color: white;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card1 {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.card0 {
+  margin-left: 270px;
+}
+.img-footer-1 {
+  height: 30px;
+  width: 30px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 500px;
+  left: 630px;
+}
+.img-footer-1-ket {
+  position: absolute;
+  top: 505px;
+  left: 661px;
+  color: grey;
+  font-weight: bold;
+}
+.img-footer-2 {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 500px;
+  left: 710px;
+}
+.img-footer-2-ket {
+  position: absolute;
+  top: 505px;
+  left: 740px;
+  color: grey;
+  font-weight: bold;
+}
+.img-footer-3 {
+  height: 30px;
+  width: 30px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+.img-footer-3-ket {
+  position: absolute;
+  top: 505px;
+  left: 830px;
+  color: grey;
+  font-weight: bold;
+}
+.img-footer-4 {
+  height: 30px;
+  width: 30px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 500px;
+  left: 960px;
+  transform: rotate(90deg);
+}
+.img-footer-4-ket {
+  position: absolute;
+  top: 505px;
+  left: 990px;
+  color: grey;
+  font-weight: bold;
+}

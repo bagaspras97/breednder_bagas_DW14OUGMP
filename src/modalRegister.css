@@ -1,14 +1,23 @@
 .title-register {
   text-align: center;
 }
+.form-control-breeder {
+  margin-top: 17px;
+}
 .form-email {
   margin-top: 0;
 }
-.dropdown-toggle {
-  box-sizing: border-box;
+.form-password1 {
+  margin-top: 17px;
 }
+
 select.form-control {
   background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.form-species-pet {
+  width: 300px;
+  margin-left: 100px;
 }
 
 .div-register {
@@ -16,13 +25,13 @@ select.form-control {
   height: 50px;
 }
 .register {
+  border-radius: 10px;
   padding: 5px 20px;
   background: linear-gradient(145deg, #f8b231, #cee026);
-  color: white;
-  width: 100%;
-  font-weight: bold;
+  color: black;
+  width: 300px;
 }
 
 .register:hover {
-  color: black;
+  box-shadow: 1px 1px 10px #cee026;
 }

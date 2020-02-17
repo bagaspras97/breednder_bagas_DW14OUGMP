@@ -2,13 +2,20 @@
 .modal-content {
   border: rgb(248, 178, 49);
 }
+
 .title-login {
   text-align: center;
-  font-size: 40px;
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+}
+.form-control-email {
+  margin-top: 17px;
 }
 .form-email {
   margin: 10px 0 auto;
+}
+.form-password {
+  margin-top: 18px;
 }
 
 .div-submit {
@@ -18,13 +25,12 @@
 }
 .submit {
   padding: 5px 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   background: linear-gradient(145deg, #f8b231, #cee026);
-  color: white;
-  font-weight: bold;
-  width: 100%;
+  color: black;
+  width: 300px;
 }
 
 .submit:hover {
-  color: black;
+  box-shadow: 1px 1px 10px #cee026;
 }
