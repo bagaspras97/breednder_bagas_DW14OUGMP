@@ -31,7 +31,7 @@ class ModalRegister extends Component {
           onHide={() => this.handleModal(show)}
         >
           <div>
-            <Modal.Header closeButton>
+            <Modal.Header className="modal-header-register" closeButton>
               <Modal.Title className="title-register" closeButton>
                 Form Register
               </Modal.Title>

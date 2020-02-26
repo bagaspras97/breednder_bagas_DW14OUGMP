@@ -35,7 +35,7 @@ class ModalLogin extends Component {
           onHide={() => this.handleModal(show)}
         >
           <div>
-            <Modal.Header closeButton>
+            <Modal.Header className="modal-header-login" closeButton>
               <Modal.Title className="title-login">Form Login</Modal.Title>
             </Modal.Header>
           </div>

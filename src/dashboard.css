@@ -48,8 +48,8 @@ h2 {
 .div-right {
   width: 65%;
   height: 100vh;
-  background-image: url(img/background.jpg);
-  float: right;
+  /* background-image: url(img/background.jpg); */
+  /* float: right; */
 }
 .card {
   margin: 40px 260px auto;

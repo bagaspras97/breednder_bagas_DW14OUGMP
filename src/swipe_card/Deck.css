@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: Raleway, sans-serif;
+  position: fixed;
+  overflow: hidden;
+}
+
+.swipeCard {
+  background: url("../img/background.jpg");
+  position: fixed;
+  left: 35%;
+  overflow: hidden;
+  width: 65%;
+  height: 100%;
+  cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png")
+      39 39,
+    auto;
+}
+
+.swipeCard > div {
+  position: absolute;
+  width: 70vw;
+  height: 100vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipeCard > div > div {
+  padding: 5px;
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  max-width: 300px;
+  height: 450px;
+  max-height: 570px;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
+}
+
+.swipeCard img {
+  height: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.swipeCard button[aria-label="previous"],
+button[aria-label="next"] {
+  background: none;
+  color: black !important;
+}
+
+.swipeCard h2 {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+.swipeCard h2:nth-of-type(2) {
+  opacity: 0.7;
+  font-size: 1.35rem;
+}
+
+.swipeCard h5 {
+  margin-top: 0px;
+  margin-left: 10px;
+  color: lightgray;
+}
+.swipeCard h5:last-of-type {
+  color: darkgray;
+}
+
+.cardSwipeHome > div {
+  height: 335px !important;
+}
+
+.cardSwipeHome {
+  height: 500px !important;
+}
+
+.slider-control-bottomcenter {
+  bottom: -15px !important;
+}
+
+.slider-control-bottomcenter > ul > li > button {
+  color: white !important;
+  position: absolute;
+  top: 0px;
+}

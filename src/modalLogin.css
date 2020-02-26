@@ -2,7 +2,9 @@
 .modal-content {
   border: rgb(248, 178, 49);
 }
-
+div.modal-header-login {
+  background: linear-gradient(145deg, #cee026, #f8b231);
+}
 .title-login {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;

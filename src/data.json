@@ -1,14 +1,17 @@
 [
   {
     "id": 1,
+    "name": "udin",
     "Image": "http://localhost:3000/img/image1.jpg"
   },
   {
     "id": 2,
+    "name": "ujang",
     "Image": "http://localhost:3000/img/image2.jpg"
   },
   {
     "id": 3,
+    "name": "joko",
     "Image": "http://localhost:3000/img/image3.jpg"
   },
   {

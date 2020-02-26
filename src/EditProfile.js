@@ -140,9 +140,12 @@ class EditProfile extends Component {
               </div>
             </div>
           </div>
-          <Button className="btn-save" variant="warning">
-            Save
-          </Button>
+
+          <Link to="/Profile">
+            <Button className="btn-save" variant="warning">
+              Save
+            </Button>
+          </Link>
         </div>
       </>
     );

@@ -6,6 +6,8 @@ import Dashboard from "./dashboard";
 import Profile from "./Profile";
 import Premium from "./Premium";
 import EditProfile from "./EditProfile";
+import Deck from "../src/swipe_card/Deck";
+import ModalPayment from "./modalPayment";
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -15,7 +17,9 @@ const AppRouter = () => (
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/profile" component={Profile} />
       <Route path="/editprofile" component={EditProfile} />
-      <Route path="/premium" component={Premium} />
+      <Route path="/payment" component={Premium} />
+      <Route path="./alertpayment" component={ModalPayment} />
+      <Route path="/deck" component={Deck} />
     </Switch>
   </BrowserRouter>
 );

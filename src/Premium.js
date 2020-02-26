@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Modal, Button, Form, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Premium.css";
+import ModalPayment from "./modalPayment";
 
 class Premium extends Component {
   constructor(props) {
@@ -65,9 +66,10 @@ class Premium extends Component {
                     />
                   </div>
                 </div>
-                <Button className="form-button-premium" variant="light">
+                {/* <Button className="form-button-premium" variant="light">
                   Send
-                </Button>
+                </Button> */}
+                <ModalPayment />
               </div>
             </Modal.Body>
           </div>
